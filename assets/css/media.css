@@ -1,0 +1,246 @@
+@media screen and (max-width: 1200px) {
+    .black-friday {
+        margin-top: 60px;
+    }
+
+    .black-friday__title {
+        font-size: 120px;
+    }
+
+    .black-friday__title-first {
+        margin-bottom: -15px;
+    }
+
+    .black-friday__title-second::before {
+        bottom: -113px;
+        left: -35px;
+        width: 100%;
+        height: 100%;
+        background-size: 140px;
+    }
+
+    .black-friday__title-first::before {
+        top: -207px;
+        left: 25px;
+    }
+
+    .black-friday__title-first::after {
+        top: -230px;
+        right: 20px;
+    }
+
+    .black-friday__action-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .black-friday__lines {
+        top: 30px;
+    }
+
+    .header {
+        padding: 0 32px;
+    }
+
+    .black-friday__icon {
+        top: -100px;
+    }
+
+    .black-friday__icon img {
+        width: 236px;
+    }
+
+    .black-friday__action {
+        left: 170px;
+    }
+
+    .black-friday-line__first {
+        left: -150px;
+    }
+
+    .black-friday-line__second {
+        top: -67px;
+    }
+
+    .black-friday__note {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .black-friday__title {
+        font-size: 94px;
+    }
+
+    .black-friday__title-first {
+        margin-bottom: -55px;
+    }
+
+    .header__wrapper {
+        padding: 18px 20px;
+    }
+
+    .black-friday__title-first::before {
+        top: -185px;
+        left: 15px;
+    }
+
+    .black-friday__title-first::after {
+        top: -225px;
+        right: 13px;
+    }
+
+    .black-friday__title-second::before {
+        bottom: -110px;
+        left: -33px;
+        background-size: 115px;
+    }
+
+    .black-friday__action {
+        left: 120px;
+        top: -25px;
+    }
+
+    .black-friday__lines {
+        top: 5px;
+    }
+
+    .header {
+        padding: 0 20px;
+    }
+
+    .black-friday-line__first {
+        left: -190px;
+    }
+
+    .black-friday-line__second {
+        top: -77px;
+        left: -270px;
+    }
+
+    .black-friday__icon img {
+        width: 178px;
+    }
+
+    .black-friday__icon {
+        top: -50px;
+        right: 10px;
+    }
+
+    .black-friday__note{
+        top: -90px;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        margin: 0 auto;
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .header__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .header__logo img {
+        width: 80px;
+    }
+
+    .header__menu {
+        display: none;
+        width: 100%;
+    }
+
+    .header__menu-list {
+        flex-direction: column;
+        align-items: end;
+        gap: 20px;
+    }
+
+    .black-friday {
+        margin-top: 140px;
+        margin-bottom: 100px;
+    }
+
+    .black-friday__title {
+        font-size: 46px;
+    }
+
+    .black-friday__content {
+        left: 0;
+        padding: 0 20px;
+    }
+
+    .black-friday__title-first {
+        margin-top: -50px;
+        margin-bottom: -100px;
+    }
+
+    .black-friday__title-first::before {
+        top: -154px;
+        left: 8px;
+    }
+
+    .black-friday__title-first::after {
+        top: -226px;
+        right: 5px;
+    }
+
+    .black-friday__title-second::before {
+        bottom: -96px;
+        left: 103px;
+    }
+
+    .black-friday__icon img {
+        width: 122px;
+    }
+
+    .black-friday__action {
+        left: 0;
+        top: 0;
+        margin-top: 20px;
+    }
+
+    .black-friday__note {
+        top: -150px;
+        right: unset;
+        left: 0;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .black-friday__lines {
+        top: 120px;
+    }
+
+    .black-friday-line__first {
+        left: unset;
+        right: 0;
+    }
+
+    .black-friday-line__second {
+        top: -30px;
+        left: unset;
+        right: -230px;
+    }
+
+    .black-friday__icon {
+        top: -20px;
+        right: -20px;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .modal__wrapper {
+        padding: 30px;
+    }
+
+    .modal__title {
+        font-size: 30px;
+    }
+}

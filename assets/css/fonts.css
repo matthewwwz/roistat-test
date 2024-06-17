@@ -1,0 +1,94 @@
+/* Unbounded font */
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded/Unbounded-Medium.eot');
+    src: local('Unbounded Medium'), local('Unbounded-Medium'),
+    url('../fonts/Unbounded/Unbounded-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Unbounded/Unbounded-Medium.woff2') format('woff2'),
+    url('../fonts/Unbounded/Unbounded-Medium.woff') format('woff'),
+    url('../fonts/Unbounded/Unbounded-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded/Unbounded-Bold.eot');
+    src: local('Unbounded Bold'), local('Unbounded-Bold'),
+    url('../fonts/Unbounded/Unbounded-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Unbounded/Unbounded-Bold.woff2') format('woff2'),
+    url('../fonts/Unbounded/Unbounded-Bold.woff') format('woff'),
+    url('../fonts/Unbounded/Unbounded-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded/Unbounded-Regular.eot');
+    src: local('Unbounded Regular'), local('Unbounded-Regular'),
+    url('../fonts/Unbounded/Unbounded-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Unbounded/Unbounded-Regular.woff2') format('woff2'),
+    url('../fonts/Unbounded/Unbounded-Regular.woff') format('woff'),
+    url('../fonts/Unbounded/Unbounded-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded/Unbounded-Black.eot');
+    src: local('Unbounded Black'), local('Unbounded-Black'),
+    url('../fonts/Unbounded/Unbounded-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Unbounded/Unbounded-Black.woff2') format('woff2'),
+    url('../fonts/Unbounded/Unbounded-Black.woff') format('woff'),
+    url('../fonts/Unbounded/Unbounded-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../fonts/Unbounded/Unbounded-Light.eot');
+    src: local('Unbounded Light'), local('Unbounded-Light'),
+    url('../fonts/Unbounded/Unbounded-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Unbounded/Unbounded-Light.woff2') format('woff2'),
+    url('../fonts/Unbounded/Unbounded-Light.woff') format('woff'),
+    url('../fonts/Unbounded/Unbounded-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Unbounded Blond';
+    src: url('../fonts/Unbounded/Unbounded-Blond.eot');
+    src: local('Unbounded Blond'), local('Unbounded-Blond'),
+    url('../fonts/Unbounded/Unbounded-Blond.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Unbounded/Unbounded-Blond.woff2') format('woff2'),
+    url('../fonts/Unbounded/Unbounded-Blond.woff') format('woff'),
+    url('../fonts/Unbounded/Unbounded-Blond.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Suisse Intl font */
+
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('../fonts/SuisseIntl/SuisseIntl-Regular.eot');
+    src: local('SuisseIntl Regular'), local('SuisseIntl-Regular'),
+    url('../fonts/SuisseIntl/SuisseIntl-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SuisseIntl/SuisseIntl-Regular.woff2') format('woff2'),
+    url('../fonts/SuisseIntl/SuisseIntl-Regular.woff') format('woff'),
+    url('../fonts/SuisseIntl/SuisseIntl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
