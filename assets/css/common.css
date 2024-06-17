@@ -415,6 +415,18 @@ main {
     display: block;
 }
 
+.form__success {
+    background: #009f32;
+    padding: 8px 20px;
+    color: #e5e5e5;
+    border-radius: 8px;
+    display: none;
+}
+
+.form__success-show {
+    display: block;
+}
+
 /* Button component */
 .btn {
     padding: 16px 24px;

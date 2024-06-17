@@ -80,10 +80,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 form.sendData(formData)
                     .then((response) => {
-                        console.log(response);
-
-                        alert('Ваша заявка отправлена!')
                         formBlock.reset(); // очищаем поля формы
+
+                        form.clearError()
+                        form.showSuccess("Ваша заявка успешно отправлена!")
+
+                        setTimeout(() => form.clearSuccess(), 3000);
                     })
                     .catch((err) => console.error(err))
             })
@@ -106,6 +108,30 @@ document.addEventListener("DOMContentLoaded", () => {
             const errorBlock = formBlock.querySelector(".form__error")
             errorBlock.classList.add("form__error-show")
             errorBlock.innerText = message
+        },
+
+        clearError: function () {
+            const formBlock = document.getElementById("form")
+
+            const errorBlock = formBlock.querySelector(".form__error")
+            errorBlock.classList.remove("form__error-show")
+            errorBlock.innerText = ""
+        },
+
+        clearSuccess: function () {
+            const formBlock = document.getElementById("form")
+
+            const successBlock = formBlock.querySelector(".form__success")
+            successBlock.classList.remove("form__success-show")
+            successBlock.innerText = ""
+        },
+
+        showSuccess: function (message) {
+            const formBlock = document.getElementById("form")
+
+            const successBlock = formBlock.querySelector(".form__success")
+            successBlock.classList.add("form__success-show")
+            successBlock.innerText = message
         },
 
         validateURL: function (val) {
